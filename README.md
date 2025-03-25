@@ -39,6 +39,7 @@ On analysing the confusion matrix, it is seen that
 
 ### Classification Report 
 ![classification report](Credit_Risk/classification_report.png)
+
 The classification report provides understanding on the precision, recall and F1-score:
 * 1. Precision : This shows how many predicted positives are actually correct
     * Healthy Loans : 1 implies there are no false healthy loans. It is almost perfect.
@@ -56,7 +57,6 @@ The classification report provides understanding on the precision, recall and F1
 * 3. The Weighted Avg (0.99 Precision, 0.99 Recall, 0.99 F1-Score) considers the class imbalance (if there are far more healthy loans than high-risk loans, this skews the score).
 
 ## Summary
-In a nutshell, 
 * Logistic regression is effective for interpretability.
 * It works well with binary classifications.
 * From the confusion matrix, it is seen that the misclassifications are far less than the correct classifications.
