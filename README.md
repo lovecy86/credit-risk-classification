@@ -38,7 +38,7 @@ On analysing the confusion matrix, it is seen that
 * 32 high risk loans were incorrectly classified as healthy.
 
 ### Classification Report 
-![classification report](classification_report.png)
+![classification report](Credit_Risk/classification_report.png)
 The classification report provides understanding on the precision, recall and F1-score:
 * 1. Precision : This shows how many predicted positives are actually correct
     * Healthy Loans : 1 implies there are no false healthy loans. It is almost perfect.
