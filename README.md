@@ -64,6 +64,8 @@ The classification report provides understanding on the precision, recall and F1
 * A high Recall for High-Risk Loans is crucial for identifying potential defaulters.
 * A 91% F1 score for high risk loans implies that the model is well balanced in identifying defaulters and minimizing misclassifications.
 
+I would recommend this model for company use, as it has a very high accuracy rate. This shows that the predictions done is most likely correct.Therefore, the lender can depend on the prediction done by this model to decided whether it should sanction the loan or not. 
+
 
 
 
